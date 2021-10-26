@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date=$date
+
 cd /home/go/git
-mv Test-2 $date
+rm -rf Test-2 
 git clone https://github.com/Antriksh-s/Test-2.git
